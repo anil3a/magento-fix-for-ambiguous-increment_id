@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+  <config>
+   <modules>
+      <AnilPrz_Salesgrid>
+         <version>1.0.0</version>
+      </AnilPrz_Salesgrid>
+  </modules>
+  <global>
+    <blocks>
+        <adminhtml>
+            <rewrite>
+                <sales_order_grid>AnilPrz_Salesgrid_Block_Adminhtml_Sales_Order_Grid</sales_order_grid>
+            </rewrite>
+        </adminhtml>
+    </blocks>
+  </global>
+</config>
